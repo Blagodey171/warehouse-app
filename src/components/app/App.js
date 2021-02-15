@@ -3,6 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 function App() {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(async () => {
         
         let data = await axios.get('/posts')
