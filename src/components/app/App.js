@@ -8,6 +8,7 @@ function App() {
         
         let data = await axios.get('/posts')
         console.log(data)
+        const test = '';
     }, [])
 
     return (
